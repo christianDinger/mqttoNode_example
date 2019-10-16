@@ -1,0 +1,28 @@
+{
+  "name": "broker",
+  "version": "1.0.0",
+  "description": "A private MQTT broker",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/christianDinger/mqttoNode_example.git"
+  },
+  "keywords": [
+    "Mosquitto",
+    "MQTT",
+    "NodeJS"
+  ],
+  "author": "Christian Dinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianDinger/mqttoNode_example/issues"
+  },
+  "homepage": "https://github.com/christianDinger/mqttoNode_example#readme",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "request": "^2.88.0"
+  }
+}
